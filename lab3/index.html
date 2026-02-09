@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration | Lab 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Registration</h2>
+
+    <form id="regForm" onsubmit="return validateForm()">
+
+        <div class="field">
+            <input type="text" id="name">
+            <label>Full Name</label>
+            <small></small>
+        </div>
+
+        <div class="field">
+            <input type="email" id="email">
+            <label>Email Address</label>
+            <small></small>
+        </div>
+
+        <div class="field">
+            <input type="text" id="phone">
+            <label>Mobile Number</label>
+            <small></small>
+        </div>
+
+        <div class="field">
+            <input type="number" id="age">
+            <label>Age</label>
+            <small></small>
+        </div>
+
+        <div class="field">
+            <input type="password" id="password">
+            <label>Password</label>
+            <small></small>
+        </div>
+
+        <div class="field">
+            <input type="password" id="confirmPassword">
+            <label>Confirm Password</label>
+            <small></small>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
