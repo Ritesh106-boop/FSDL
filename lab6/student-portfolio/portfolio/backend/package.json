@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "json-server backend for Student Portfolio CRUD",
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
